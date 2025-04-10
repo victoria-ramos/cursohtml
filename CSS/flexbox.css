@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: yellow;
+    height: 640px;
+    width: 640px;
+}
+
+.flex-item {
+    background-color: red;
+    width: 100%;
+    color:aliceblue;
+}   
+
+.flex-item:nth-child(2) {
+    background-color: purple;
+    align-self: center;
+}

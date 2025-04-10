@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [um] 1fr [dois] 1fr [tres] 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.grid div {
+    background-color: tomato;
+    min-height: 100px;
+}
+
+.grid div:nth-child(5) {
+    background-color: brown;
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}

@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.two-columns .col {
+    background-color: aqua;
+    margin: 15px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: block;
+    font-size: 6vh;
+    scroll-behavior: smooth;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin: auto;
+    padding: 15px;
+    float: left;
+}
+
+li {
+    float: left;
+    list-style: none;
+    display: block;
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    transition: ease-in-out;
+    
+}
+
+.menu ul li um:hover {
+    background-color: blue;
+}
+
+div {
+    height: 100%;
+    padding: 10px;
+    float: left;
+    padding-top: 100px;
+}

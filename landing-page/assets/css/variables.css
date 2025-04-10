@@ -1,0 +1,10 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */ 
+
+:root {
+    --primary-color: #020d30;
+    --white: #FFF;
+    --gap: 3rem;
+    --light-gray-color: #d4d2d2ee;
+    --secondary-color: crimson;
+}
